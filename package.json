@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@inertiajs/inertia": "^0.9.4",
+        "@inertiajs/inertia-vue3": "^0.4.2",
+        "@inertiajs/progress": "^0.2.6",
+        "@tailwindcss/forms": "^0.2.1",
+        "@tailwindcss/typography": "^0.3.0",
+        "@vue/compiler-sfc": "^3.1.5",
+        "alpinejs": "^3.2.2",
+        "axios": "^0.21",
+        "bootstrap": "^4.6.0",
+        "jquery": "^3.5.1",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "postcss-import": "^12.0.1",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.35.2",
+        "sass-loader": "^12.1.0",
+        "tailwindcss": "^2.0.1",
+        "vue": "^3.1.5",
+        "vue-loader": "^16.3.3"
+    },
+    "dependencies": {
+        "datatables.net-bs4": "^3.2.2",
+        "datatables.net-bs5": "^1.10.25",
+        "datatables.net-buttons-bs4": "^1.7.1",
+        "datatables.net-dt": "^1.1.0"
+    }
+}
